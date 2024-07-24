@@ -134,7 +134,7 @@ const Projects = () => {
     };
 
     return (
-        <div name="projects" className="bg-black text-white min-h-screen flex justify-center items-center">
+        <div name="projects" className="bg-black text-white min-h-screen flex justify-center items-center pt-20 md:pt-0">
             <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
                 <div className="pb-8">
                     <p className="text-4xl font-bold inline border-b-4 border-green-500">Projects</p>
