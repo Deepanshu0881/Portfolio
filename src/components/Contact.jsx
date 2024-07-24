@@ -30,8 +30,8 @@ const Contact = ()=>{
                         <li className="px-4 hover:text-green-600"><a href="https://www.linkedin.com/in/deepanshu-saini-a1a42422a"><FaLinkedin size={30} /></a></li>
                         <li className="px-4 hover:text-green-600"><a href="https://github.com/Deepanshu0881"><FaGithub size={30} /></a></li>
                         <li className="px-4 hover:text-green-600"><a href="mailto:deepanshusaini0881@gmail.com"><HiOutlineMail size={30} /></a></li>
-                        <li className="px-4 hover:text-green-600"><a href="https://drive.google.com/file/d/1hfQVm4AG_R7t14jxXVkYifrYL7FoBwyp/view?usp=sharing"><img src={leetcodeLogo} alt="LeetCode" width={30} height={30} /></a></li>
                         <li className="px-4 hover:text-green-600"><a href="https://drive.google.com/file/d/1hfQVm4AG_R7t14jxXVkYifrYL7FoBwyp/view?usp=sharing"><BsFillPersonLinesFill size={30} /></a></li>
+                        <li className="px-4 hover:text-green-600"><a href="https://drive.google.com/file/d/1hfQVm4AG_R7t14jxXVkYifrYL7FoBwyp/view?usp=sharing"><img src={leetcodeLogo} alt="LeetCode" width={30} height={30} /></a></li>
                     </ul>
                 </div>
             </div>
