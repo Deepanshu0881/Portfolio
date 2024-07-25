@@ -5,14 +5,14 @@ import { Link } from "react-scroll";
 
 const Home = ()=>{
     return (
-        <div name = "home" className="h-full w-full bg-black pt-16 md:pt-0">
+        <div name = "home" className="h-screen w-full bg-black pt-36 md:pt-0 ">
             <div className="max-w-screen-lg mx-auto flex flex-col  items-center justify-center h-full px-4 py-8 md:flex-row ">
-                <div className="flex flex-col justify-center h-full ">
+                <div className="flex flex-col justify-center h-full md:w-1/2">
                     <h2 className="text-4xl sm:text-5xl font-bold text-white ">
                         I'm a Full Stack Developer
                     </h2>
                     <p className=" text-gray-200 py-4 max-w-md">
-                        I have 2 years of experience building and designing software.
+                        I am a full stack web developer and building sofwares for people.
                         Currently, I love to work on web application using technologies like React,Tailwind, Node Js, Express Js, MongoDB.
                     </p>
                     <div>
@@ -26,8 +26,8 @@ const Home = ()=>{
                     </div>
                 </div>
 
-                <div>
-                    <img src={HeroImage} alt="my profile pic" className="rounded-2xl mx-auto  w-60 md:w-80" />
+                <div className="md:w-1/2">
+                    <img src={HeroImage} alt="my profile pic" className="rounded-2xl mx-auto  w-60 md:w-60" />
                 </div>
             </div>
         </div>
