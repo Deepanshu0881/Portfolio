@@ -11,6 +11,8 @@ import simonGame from "../assets/portfolio/simon_game.png";
 import amazonClone from "../assets/portfolio/amazon_clone.png";
 import diceGame from "../assets/portfolio/dice_game.png";
 import drumKit from "../assets/portfolio/drum_kit.png";
+import sortingvisualizer from "../assets/portfolio/sorting_visualizer.png"
+
 
 const Projects = () => {
     const projects = [
@@ -25,6 +27,15 @@ const Projects = () => {
         },
         {
             id: 2,
+            src: sortingvisualizer,
+            name: "Sorting Visualizer",
+            tech: "React",
+            date: "Oct 2024",
+            demoLink: "https://sorting-visualizer-delta-eight.vercel.app/",
+            codeLink: "https://github.com/Deepanshu0881/Sorting-Visualizer"
+        },
+        {
+            id: 3,
             src: tictactoeGame,
             name: "TicTacToe Game",
             tech: "HTML, CSS, JavaScript",
@@ -33,7 +44,7 @@ const Projects = () => {
             codeLink: "https://github.com/Deepanshu0881/TicTacToe"
         },
         {
-            id: 3,
+            id: 4,
             src: weatherApp,
             name: "Weather App",
             tech: "HTML, CSS, JavaScript",
@@ -42,7 +53,7 @@ const Projects = () => {
             codeLink: "https://github.com/Deepanshu0881/Weather_app"
         },
         {
-            id: 4,
+            id: 5,
             src: stopwatch,
             name: "Stopwatch",
             tech: "HTML, CSS",
@@ -51,7 +62,7 @@ const Projects = () => {
             codeLink: "https://github.com/Deepanshu0881/StopWatch"
         },
         {
-            id: 5,
+            id: 6,
             src: simonGame,
             name: "Simon Game",
             tech: "HTML, CSS, JavaScript",
@@ -60,7 +71,7 @@ const Projects = () => {
             codeLink: "https://github.com/Deepanshu0881/Simon_game"
         },
         {
-            id: 6,
+            id: 7,
             src: amazonClone,
             name: "Amazon Clone",
             tech: "HTML, CSS",
@@ -69,7 +80,7 @@ const Projects = () => {
             codeLink: "https://github.com/Deepanshu0881/Project_amazon"
         },
         {
-            id: 7,
+            id: 8,
             src: diceGame,
             name: "Dice Game",
             tech: "HTML, CSS, JavaScript",
@@ -78,7 +89,7 @@ const Projects = () => {
             codeLink: "https://github.com/Deepanshu0881/Dice_Game"
         },
         {
-            id: 8,
+            id: 9,
             src: drumKit,
             name: "DrumKit",
             tech: "HTML, CSS, JavaScript",
@@ -87,7 +98,7 @@ const Projects = () => {
             codeLink: "https://github.com/Deepanshu0881/Drum-Kit"
         },
         {
-            id: 9,
+            id: 10,
             src: calculatorApp,
             name: "Calculator App",
             tech: "HTML, CSS",
